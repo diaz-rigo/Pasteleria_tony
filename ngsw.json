@@ -1,0 +1,82 @@
+{
+  "configVersion": 1,
+  "timestamp": 1724898135669,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-DT2RN4AY.js",
+        "/chunk-XCKINK46.js",
+        "/index.html",
+        "/main-2A2NJNL3.js",
+        "/manifest.webmanifest",
+        "/polyfills-SCHOHYNV.js",
+        "/styles-43HW7ZAE.css"
+      ],
+      "patterns": [
+        "https:\\/\\/pasteleria-tony\\.vercel\\.app\\/ngsw\\.json\\?ngsw-cache-bust=0\\.24534346460249967"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "patterns": [
+        "https:\\/\\/austin-b\\.onrender\\.com",
+        "https:\\/\\/austin-b\\.onrender\\.com\\/product"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 86400000,
+      "timeoutMs": 10000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/chunk-DT2RN4AY.js": "fddec53120ba07ab311923f1832aa902f0c25c42",
+    "/chunk-XCKINK46.js": "1a93a06b13988bee568f94363b800fc437b05e6d",
+    "/index.html": "0bbed62bbebf0c530816f8a5ce5647201386ebbd",
+    "/main-2A2NJNL3.js": "5f5cc8c141fa938739fe02af1c47f6b66803e0bc",
+    "/manifest.webmanifest": "bb4d47db99c0094a291ee04adbcab2258b406b84",
+    "/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
+    "/styles-43HW7ZAE.css": "056ee78d205c0b3c35e38a7c8abc44f2d4ed60a8"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
